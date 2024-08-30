@@ -20,6 +20,5 @@ class Seactl < Formula
 
   test do
     assert_match "seactl version v#{version}", shell_output("#{bin}/seactl --version")
-    system "false"
   end
 end
