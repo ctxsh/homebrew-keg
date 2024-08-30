@@ -8,15 +8,14 @@ class Seactl < Formula
   depends_on "go" => :build
 
   def install
-    require "net/http"
-    uri = URI(" https://api.github.com/repos/ctxswitch/seaway/releases/latest")
-    resp = Net::HTTP.get(uri)
-    resp_json = JSON.parse(resp)
-    seaway_version = resp_json["tag_name"].sub("v", "")
-    
+    # require "net/http"
+    # uri = URI("https://api.github.com/repos/ctxswitch/seaway/releases/latest")
+    # resp = Net::HTTP.get(uri)
+    # resp_json = JSON.parse(resp)
+    # seaway_version = resp_json["tag_name"].sub("v", "")
     ldflags = %W[
       -s -w
-      -X ctx.sh/seaway/pkg/build.Version=$(seaway_version)
+      -X ctx.sh/seaway/pkg/build.Version=#{version}
     ]
 
     system "go", "build", "-trimpath", *std_go_args(ldflags:), "./pkg/cmd/seactl"
