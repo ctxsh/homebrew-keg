@@ -19,6 +19,6 @@ class Seactl < Formula
   end
 
   test do
-    assert_match "seactl version v#{version}", shell_output("#{bin}/seactl --version").strip
+    assert_match "seactl version #{version}", shell_output("#{bin}/seactl --version").strip
   end
 end
