@@ -25,6 +25,6 @@ SHA256=$(awk '{print $1}' <<<"${SHASUM_OUT}")
 
 # Update the formula with the latest version and sha256
 sed -i '' \
-  -e "s/\(url \".*\/tags\/\).*.tar.gz\(\".*\)/\1${LATEST_VERSION}\2/" \
-  -e "s/\(sha256 \"\).*\(\".*\)/\1${SHA256}\2/" \
+  -e "s#\(\ \ url\ \"\).*\(\"\)#\1${SOURCE_URL}\2#" \
+  -e "s#\(sha256 \"\).*\(\"\)#\1${SHA256}\2#" \
   Formula/"${FORMULA}".rb
