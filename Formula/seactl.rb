@@ -6,10 +6,10 @@ class Seactl < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/ctxsh/homebrew-tap/releases/download/seactl-0.1.0-pre.12"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "8e3228499a152d7423f71fc777578779d8a167752e3a1e87ae0f77ddf9ce04b2"
-    sha256 cellar: :any_skip_relocation, ventura:      "521dba7a50c54ae6161f90447ec80d4406217aa7970ac6e231905d5fdd21abb5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "2cbdb6bd6fae7a4374a0ca7c7095cea9344156da9192a32bb173b539125eb0f3"
+    root_url "https://github.com/ctxsh/homebrew-tap/releases/download/seactl-0.1.0-pre.13"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "b0afe6f48dd3b67b09759e26aca3cb0c2c10a261e7d63e29c1996bcbed609e00"
+    sha256 cellar: :any_skip_relocation, ventura:      "4f0577bec580834b98f864b7005161cc1ced314f04800bcb5eb3918a4d31680d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3d8f67a0b10224916a5c27f6f33b1660f9b19080f3c0573ddaa9a197b6ba6211"
   end
 
   depends_on "go" => :build
