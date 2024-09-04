@@ -1,8 +1,8 @@
 class Seactl < Formula
   desc "Manage development environments in kubernetes"
   homepage "https://github.com/ctxswitch/seaway"
-  url "https://github.com/ctxswitch/seaway/archive/refs/tags/v0.1.0-pre.13.tar.gz"
-  sha256 "9e826d1057c07dc9fdd20af5f8c8c13ca6d1f0df62fb9797d478e65fea34e91c"
+  url "https://github.com/ctxswitch/seaway/archive/refs/tags/v0.1.0-pre.14.tar.gz"
+  sha256 "fdb3ed40a8fc526878a29b3fc7f0c6a85f4fa542ad9acafce3b2a11ae8780014"
   license "Apache-2.0"
 
   bottle do
