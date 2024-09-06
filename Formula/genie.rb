@@ -1,8 +1,8 @@
 class Genie < Formula
   desc "Templatable generator for predictable events"
   homepage "https://github.com/ctxswitch/genie"
-  url "https://github.com/ctxswitch/genie/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "dc2b0ccf0802d9e4091f3700d51e7653056103f560cbaf4b8aefff795c765469"
+  url "https://github.com/ctxswitch/genie/archive/refs/tags/v0.1.8.tar.gz"
+  sha256 "4c9532ab8aed0749fff98aad92e294b25fe24dfae5845b291166f0c74a96133e"
   license "Apache-2.0"
 
   bottle do
