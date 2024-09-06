@@ -9,7 +9,7 @@ Or `brew tap ctxsh/tap` and then `brew install <formula>`.
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
-tap "ctxsh/tap"
+tap "ctxsh/keg"
 brew "<formula>"
 ```
 
