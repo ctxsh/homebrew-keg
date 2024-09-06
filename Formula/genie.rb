@@ -6,10 +6,10 @@ class Genie < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/ctxsh/homebrew-tap/releases/download/genie-0.1.7"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "3fc150c15b0ec3c82f90fa49d6ffa2fc82c46538c338bb56c54f6f971a0bd54b"
-    sha256 cellar: :any_skip_relocation, ventura:      "822c143fb470504156628912a4755ca24565837eb02c8136c9390299560350b5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "6536ce491f2a520e03f72cfa77ab20dd33d0dbf3329db1c0d618c007a4153c8b"
+    root_url "https://github.com/ctxsh/homebrew-tap/releases/download/genie-0.1.8"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "48bfaa215c8bca30d3f9626cda6009a9f26c8d739257fc519cf13fd08481fbb7"
+    sha256 cellar: :any_skip_relocation, ventura:      "da96eb90fd7dd92137cd2b7dca9ce51a65fd655c9f682189c7c654cdfe89ea91"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "ec7395a6e0637e945c2def9b8754d2d972098d715fbf5d686bc7ca19aad09f7f"
   end
 
   depends_on "go" => :build
